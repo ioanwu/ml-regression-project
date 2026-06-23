@@ -32,8 +32,8 @@ Model performance is evaluated on both the Train and Test sets using the followi
 Model Interpretability (SHAP)
 To avoid "black-box" predictions, the pipeline integrates the shap library for the tree-based algorithms (Random Forest and Gradient Boosting). 
 During execution, it automatically generates:
-SHAP Summary Plots: To visualize global feature importance and the directional impact of features across the test set.  
-SHAP Waterfall Plots: To explain the specific contributions of each feature for individual sample predictions.
+-SHAP Summary Plots: To visualize global feature importance and the directional impact of features across the test set.  
+-SHAP Waterfall Plots: To explain the specific contributions of each feature for individual sample predictions.
 
 Visualizations
 Throughout the execution, the script generates several plots:
